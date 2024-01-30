@@ -17,7 +17,7 @@ cc = CoiledConfig(
     coiled_token = "<my-secret-token>"
 )
 
-cc.save('cc', overwrite=True)
+cc.save('coiledaccount', overwrite=True)
 ```
 
 ## Example flow
@@ -46,7 +46,7 @@ def process(file):
 def coiled():
 
     logger = get_run_logger()
-    CoiledConfig.load('radcoiled').configure()
+    CoiledConfig.load('coiledaccount').configure()
 
     files = get_new_data_files()
     futures = process.map(files)
