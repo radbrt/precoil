@@ -1,10 +1,14 @@
 # Coiled config block
 
-Running coiled functions as tasks from Prefect flows is awesome. This little block simply contains and configures the credentials needed, so you can get started quickly.
+Running coiled functions as tasks from Prefect flows is awesome. This little block simply contains the Coiled credentials, and you can run the built-in `configure()` function before you run your coiled code to set up credentials.
 
 ## Before you begin
 
 There is some config needed to set up coiled so that it can spin up cloud resources on your behalf. Check out the Coiled documentation for how to do that.
+
+## Install
+
+Install `precoil` with pip: `pip install git+https://github.com/radbrt/precoil.git`.
 
 ## Register block
 Register a CoiledConfig block:

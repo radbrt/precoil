@@ -10,6 +10,8 @@ class CoiledConfig(Block):
     """A helper for running Coiled functions as tasks"""
     _block_type_name = "Precoil"
     _block_type_slug = "precoil"
+    _logo_url = "https://s3.eu-central-1.amazonaws.com/com.radbrt.wfh/Coiled-Logo.png"  # noqa
+    _documentation_url = "https://github.com/radbrt/precoil"  # noqa
 
     coiled_account: str
     coiled_token: SecretStr
