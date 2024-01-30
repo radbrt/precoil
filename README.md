@@ -1,6 +1,6 @@
 # Coiled config block
 
-Running coiled functions as tasks from Prefect flows is awesome. This little block simply contains the Coiled credentials, and you can run the built-in `configure()` function before you run your coiled code to set up credentials.
+Running coiled functions as tasks from Prefect flows is awesome. This little block simply contains the Coiled credentials, and you can run the built-in `configure()` function before you run your coiled code to set up credentials. If you run your flows from your local laptop you are probably logged in to Coiled already, you have a coiled config under your home folder and you don't have to bother with this. But if you use Coiled and run your Prefect flows from Docker or similar where you don't want a token to live in perpetuity, this repo is for you.
 
 ## Before you begin
 
