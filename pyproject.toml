@@ -15,6 +15,7 @@ python = "<4,>=3.8.1"
 requests = "^2.25.0"
 prefect = ">2.8.0"
 pydantic = "^1.10.0"
+dask = ">=2023.1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
